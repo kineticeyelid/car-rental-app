@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/AudiA4.png",
+      "PackagePath": "staticwebassets/images/cars/AudiA4.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/BMW3Series.png",
+      "PackagePath": "staticwebassets/images/cars/BMW3Series.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/ChevroletSilverado.png",
+      "PackagePath": "staticwebassets/images/cars/ChevroletSilverado.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/DodgeRam1500.png",
+      "PackagePath": "staticwebassets/images/cars/DodgeRam1500.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/Ferrari488GTB.png",
+      "PackagePath": "staticwebassets/images/cars/Ferrari488GTB.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/FordF-150.png",
+      "PackagePath": "staticwebassets/images/cars/FordF-150.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/FordMustang.png",
+      "PackagePath": "staticwebassets/images/cars/FordMustang.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/HondaCivic.png",
+      "PackagePath": "staticwebassets/images/cars/HondaCivic.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/HyundaiSonata.png",
+      "PackagePath": "staticwebassets/images/cars/HyundaiSonata.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/JaguarF-PACE.png",
+      "PackagePath": "staticwebassets/images/cars/JaguarF-PACE.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/JeepWrangler.png",
+      "PackagePath": "staticwebassets/images/cars/JeepWrangler.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/KiaSoul.png",
+      "PackagePath": "staticwebassets/images/cars/KiaSoul.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/Mercedes-BenzE-Class.png",
+      "PackagePath": "staticwebassets/images/cars/Mercedes-BenzE-Class.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/NissanRogue.png",
+      "PackagePath": "staticwebassets/images/cars/NissanRogue.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/SubaruOutback.png",
+      "PackagePath": "staticwebassets/images/cars/SubaruOutback.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/TeslaModel3.png",
+      "PackagePath": "staticwebassets/images/cars/TeslaModel3.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/VolkswagenGolf.png",
+      "PackagePath": "staticwebassets/images/cars/VolkswagenGolf.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/placeholder.png",
+      "PackagePath": "staticwebassets/images/cars/placeholder.png"
+    },
+    {
+      "Id": "/Users/vaibhav/Desktop/Car/API/wwwroot/images/cars/toyotacamry.png",
+      "PackagePath": "staticwebassets/images/cars/toyotacamry.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

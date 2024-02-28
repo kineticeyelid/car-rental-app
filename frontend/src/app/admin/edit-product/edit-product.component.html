@@ -1,0 +1,95 @@
+ <!-- <section class="car-edit mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <form #carForm="ngForm" (ngSubmit)="onSubmit(carForm.valid && carForm.value)">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">Car Name</label>
+                <input
+                  [ngClass]="{'is-invalid': name?.invalid && (name?.dirty || name?.touched)}"
+                  required
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Car Name"
+                  name="name"
+                  #name="ngModel"
+                  [(ngModel)]="car.name"
+                >
+                <div *ngIf="name?.invalid && (name?.dirty || name?.touched)" class="invalid-feedback">
+                  <div>
+                    Car Name is required
+                  </div>
+                </div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="rentalPrice">Rental Price</label>
+                <input
+                  [ngClass]="{'is-invalid': rentalPrice?.invalid && (rentalPrice?.dirty || rentalPrice?.touched)}"
+                  required
+                  type="text"
+                  class="form-control"
+                  id="rentalPrice"
+                  placeholder="Rental Price"
+                  currencyMask
+                  name="rentalPrice"
+                  #rentalPrice="ngModel"
+                  [pattern]="'^\\$?([0-9]{1,3},([0-9]{3},)*[0-9]{3}|[0-9]+)(\\.[0-9][0-9])?$'"
+                  [min]="0.01"
+                  [(ngModel)]="car.rentalPrice"
+                  (ngModelChange)="updateRentalPrice($event)"
+                >
+                <div *ngIf="rentalPrice?.invalid && (rentalPrice?.dirty || rentalPrice?.touched)" class="invalid-feedback">
+                  <div>
+                    Car Rental Price is required
+                  </div>
+                  <div>
+                    Car Rental Price needs to be a decimal value
+                  </div>
+                  <div>
+                    Car Rental Price must be greater than zero
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="isAvailable">Is Available</label>
+                <textarea
+                  [ngClass]="{'is-invalid': isAvailable?.invalid && (isAvailable?.dirty || isAvailable?.touched)}"
+                  required
+                  #isAvailable="ngModel"
+                  class="form-control"
+                  id="isAvailable"
+                  [(ngModel)]="car.isAvailable"
+                  name="isAvailable"
+                  rows="3"
+                ></textarea>
+                <div *ngIf="isAvailable?.invalid && (isAvailable?.dirty || isAvailable?.touched)" class="invalid-feedback">
+                  <div>
+                    Car Is Available is required
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="maker">Maker</label>
+                <select id="maker" class="form-control" name="carMakerId" [(ngModel)]="car.carMakerId" required>
+                  <option *ngFor="let maker of makers" [ngValue]="maker.id">{{ maker.name }}</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="model">Model</label>
+                <select id="model" class="form-control" name="carModelId" [(ngModel)]="car.carModelId" required>
+                  <option *ngFor="let model of models" [ngValue]="model.id">{{ model.name }}</option>
+                </select>
+              </div>
+            </div>
+            <button [disabled]="!carForm.valid" type="submit" class="btn btn-primary my-3 float-right">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section> -->

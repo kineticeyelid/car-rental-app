@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "Toyota Camry",
+    "RentalPrice": 200,
+    "PictureUrl": "images/cars/ToyotaCamry.png",
+    "IsAvailable": "true",
+    "CarMakerId": 1,
+    "CarModelId": 3
+  },
+  {
+    "Name": "Ford F-150",
+    "RentalPrice": 300,
+    "PictureUrl": "images/cars/FordF-150.png",
+    "IsAvailable": "true",
+    "CarMakerId": 2,
+    "CarModelId": 2   
+  },
+  {
+    "Name": "Honda Civic",
+    "RentalPrice": 400,
+    "PictureUrl": "images/cars/HondaCivic.png",
+    "IsAvailable": "true",
+    "CarMakerId": 3,
+    "CarModelId": 3
+  },
+  {
+    "Name": "BMW 3 Series",
+    "RentalPrice": 500,
+    "PictureUrl": "images/cars/BMW3Series.png",
+    "IsAvailable": "true",
+    "CarMakerId": 4,
+    "CarModelId": 1
+  },
+  {
+    "Name": "Chevrolet Silverado",
+    "RentalPrice": 600,
+    "PictureUrl": "images/cars/ChevroletSilverado.png",
+    "IsAvailable": "true",
+    "CarMakerId": 5,
+    "CarModelId": 2
+  },
+  {
+    "Name": "Volkswagen Golf",
+    "RentalPrice": 100,
+    "PictureUrl": "images/cars/VolkswagenGolf.png",
+    "IsAvailable": "true",
+    "CarMakerId": 6,
+    "CarModelId": 5
+  },
+  {
+    "Name": "Tesla Model 3",
+    "RentalPrice": 200,
+    "PictureUrl": "images/cars/TeslaModel3.png",
+    "IsAvailable": "true",
+    "CarMakerId": 1,
+    "CarModelId": 1
+  },
+  {
+    "Name": "Mercedes-Benz E-Class",
+    "RentalPrice": 300,
+    "PictureUrl": "images/cars/Mercedes-BenzE-Class.png",
+    "IsAvailable": "true",
+    "CarMakerId": 2,
+    "CarModelId": 1
+  },
+  {
+    "Name": "Jeep Wrangler",
+    "RentalPrice": 400,
+    "PictureUrl": "images/cars/JeepWrangler.png",
+    "IsAvailable": "true",
+    "CarMakerId": 3,
+    "CarModelId": 4
+  },
+  {
+    "Name": "Subaru Outback",
+    "RentalPrice": 500,
+    "PictureUrl": "images/cars/SubaruOutback.png",
+    "IsAvailable": "true",
+    "CarMakerId": 4,
+    "CarModelId": 5
+  },
+  {
+    "Name": "Audi A4",
+    "RentalPrice": 600,
+    "PictureUrl": "images/cars/AudiA4.png",
+    "IsAvailable": "true",
+    "CarMakerId": 5,
+    "CarModelId": 1
+  },
+  {
+    "Name": "Ford Mustang",
+    "RentalPrice": 100,
+    "PictureUrl": "images/cars/FordMustang.png",
+    "IsAvailable": "true",
+    "CarMakerId": 6,
+    "CarModelId": 5
+  },
+  {
+    "Name": "Nissan Rogue",
+    "RentalPrice": 200,
+    "PictureUrl": "images/cars/NissanRogue.png",
+    "IsAvailable": "true",
+    "CarMakerId": 1,
+    "CarModelId": 4
+  },
+  {
+    "Name": "Hyundai Sonata",
+    "RentalPrice": 300,
+    "PictureUrl": "images/cars/HyundaiSonata.png",
+    "IsAvailable": "true",
+    "CarMakerId": 2,
+    "CarModelId": 1
+  },
+  {
+    "Name": "Ferrari 488 GTB",
+    "RentalPrice": 2000,
+    "PictureUrl": "images/cars/Ferrari488GTB.png",
+    "IsAvailable": "true",
+    "CarMakerId": 3,
+    "CarModelId": 5
+  },
+  {
+    "Name": "Dodge Ram 1500",
+    "RentalPrice": 200,
+    "PictureUrl": "images/cars/DodgeRam1500.png",
+    "IsAvailable": "true",
+    "CarMakerId": 4,
+    "CarModelId": 2
+  },
+  {
+    "Name": "Kia Soul",
+    "RentalPrice": 200,
+    "PictureUrl": "images/cars/KiaSoul.png",
+    "IsAvailable": "true",
+    "CarMakerId": 6,
+    "CarModelId": 3
+  },
+  {
+    "Name": "Jaguar F-PACE",
+    "RentalPrice": 400,
+    "PictureUrl": "images/cars/JaguarF-PACE.png",
+    "IsAvailable": "true",
+    "CarMakerId": 5,
+    "CarModelId": 4
+  }
+]

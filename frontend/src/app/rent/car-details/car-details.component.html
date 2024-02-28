@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row" *ngIf="car">
+        <div class="col-6">
+            <img src="{{car.pictureUrl}}" alt="{{car.name}}" class="w-100">
+        </div>
+        <div class="col-6 mt-5">
+            <h2>{{car.name}}</h2>
+            <p style="font-size: 2em;">{{car.rentalPrice | currency}}</p>
+
+            <h5 class="text-primary mb-3" *ngIf="rentDaysInBasket > 0">
+                You have rented car for {{rentDaysInBasket}} days
+            </h5>
+
+            <div class="d-flex justify-content-start align-items-center">
+                <i 
+                    (click)="decrementRentDays()"
+                    class="fa fa-minus-circle text-warning me-2" 
+                    style="cursor: pointer; font-size: 2em;"></i>
+                <span class="font-weight-bold" style="font-size: 1.5em;">
+                    {{rentDays}}
+                </span>
+                <i 
+                    (click)="incrementRentDays()"
+                    class="fa fa-plus-circle text-warning ms-2" 
+                    style="cursor: pointer; font-size: 2em;"></i>
+                <button 
+                    class="btn btn-outline-primary ms-4"
+                    (click)="updateBasket()"
+                    [disabled]="rentDays === rentDaysInBasket"
+                >{{buttonText}}</button>
+            </div>
+            <div class="row mt-4">
+                <h4>Is car Available</h4>
+                <p>{{car.isAvailable}}</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
